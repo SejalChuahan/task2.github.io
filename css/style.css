@@ -1,0 +1,823 @@
+/* font-family: 'IBM Plex Sans', sans-serif;
+
+font-family: 'Oswald', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1600px;
+    box-sizing: border-box;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    display: grid;
+    position: relative;
+    grid-template-columns: 30% 70%;
+
+}
+
+#header_section1 {
+    
+    background: #b76125;
+}
+
+#play {
+    width: 5%;
+    position: absolute;
+    z-index: 999;
+    top: 36%;
+    left: 27%;
+    background: white;
+    padding: 2% 2%;
+    border-radius: 92px;
+}
+
+#logobar {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 3%;
+}
+
+#logo {
+    width: 97%;
+    margin-left: 8%;
+
+}
+
+#logo img {
+    width: 100%;
+}
+
+#logobar a {
+    text-decoration: none;
+    text-align: right;
+    color: white;
+    margin-right: 5%;
+}
+
+#logobar a img {
+    width: 8%;
+    margin-right: 3%;
+  }
+
+.header_heading {
+    margin: 5% 0 0 5%;
+}
+
+.header_heading h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    color: white;
+
+}
+
+#header_section1 p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+    margin: 1% 0 0 5%;
+}
+
+#header_btn {
+    margin: 4% 0 0 5%;
+
+}
+
+#header_btn a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 2% 3%;
+}
+
+#header_section1 ul {
+    display: grid;
+    grid-template-columns: 10% 10% 10%;
+    margin: 100% 0 0 5%;
+}
+
+#header_section1 ul li {
+    list-style: none;
+}
+
+#header_section1 ul li a img {
+    width: 58%;
+    padding: 4% 6%;
+    border: 1px solid wheat;
+}
+
+#header_section1 ul li a img:hover {
+    border: 1px solid wheat;
+}
+
+/* form{
+    display: grid;
+    grid-template-rows: 70% 30%; */
+
+#header_section2 {
+    background: rgb(228, 224, 224);
+}
+
+#header_section2 nav {
+    display: grid;
+    position: absolute;
+}
+
+#header_section2 nav ul {
+    display: grid;
+    grid-template-columns: 20% 26% 37% 30% 22% 20% 26%;
+    margin: 6% 0 0 63%;
+}
+
+#header_section2 nav ul li {
+    list-style: none;
+}
+
+#header_section2 nav ul li a {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+}
+
+#header_section2 nav ul li a:hover {
+    border: 1px solid #b76125;
+    padding: 4% 3%;
+}
+
+#banner {
+    width: 100%;
+}
+
+#banner img {
+    width: 100%;
+}
+
+form {
+    display: grid;
+    margin-left: 5%;
+
+}
+
+.form_group {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 2%;
+    margin-top: 3%;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid grey;
+    background: rgb(228, 224, 224);
+    outline-style: none;
+}
+
+.form_group1 {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin-top: 4%;
+}
+
+.form_group1 input {
+    /* width: 100%; */
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.form_group1 button {
+    width: 50%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9rem;
+    background: #b76125;
+    color: white;
+    outline-style: none;
+    border: none;
+    padding: 1% 3%;
+    margin-left: 20%;
+
+}
+
+
+    #companies {
+        display: grid;
+        grid-template-columns: 15% 15% 15% 15% 15%;
+        justify-content: center;
+        width: 82%;
+        margin-left: 11%;
+      }
+
+
+
+ #companies img{
+  width: 71%;
+} 
+.line {
+    border-right: 1px solid black;
+   
+
+    height: 70%;
+}
+
+
+/* .line:nth-child(2n) {
+    border-right: 1px solid rgb(180, 21, 21);
+    height: 10px;
+   
+    margin-top: 18%;
+}  */
+
+section {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    height: fit-content;
+}
+
+.section1_p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+}
+
+#main {
+    width: 68%;
+    display: grid;
+    grid-template-areas: "main_box1 main_box2";
+    margin: 5% 0 0 17%;
+}
+
+.main_box1 {
+    display: grid;
+    grid-area: "main_box1";
+    box-sizing: border-box;
+    /* white-space: nowrap; */
+}
+
+.main_box1 h3 {
+    height: fit-content;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.main_box1 p {
+    height: fit-content;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.8rem;
+    color: black;
+    text-align: left;
+}
+
+h6 {
+    height: fit-content;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: black;
+    text-align: left;
+
+}
+
+.company_locations {
+    display: grid;
+    margin-bottom: 10%;
+
+
+}
+
+.company_locations ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 4%;
+}
+
+.company_locations ul li {
+    list-style-image: url(/images/Rectangle\ 9\ copy\ 2.png);
+}
+
+/* .know_more{
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9rem;
+    text-decoration: none;
+    background: #b76125;
+    color: white;
+    padding: 1% 3%;
+    width: 18%;
+    height: 61%; 
+  } */
+.know_more a {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    background: #b76125;
+    color: white;
+    padding: 1% 3%;
+    text-decoration: none;
+}
+
+.main_box2 {
+    width: 66%;
+    display: grid;
+    grid-area: "main_box2";
+
+}
+
+.main_box2 img {
+    width: 100%;
+}
+
+#section2 {
+    position: relative;
+    width: 100%;
+  min-height: 50px;
+}
+
+#bg_images {
+    
+    width: 100%;
+ 
+
+}
+
+#bg_images img {
+    width: 100%;
+}
+
+
+#team_section {
+    box-sizing: border-box;
+    display: grid;
+    width: 73%;
+    position: absolute;
+    top: 9%;
+    left: 16%;
+    /* z-index: 1; */
+
+}
+
+#team_section h1 {
+    color: white;
+}
+
+.team_member {
+    position: relative;
+}
+
+.team_section1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.team_section1_p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+}
+
+.team_section1_p1 {
+    width: 69%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.8rem;
+    color: white;
+    text-align: left;
+}
+
+.team_section2 {
+    display: grid;
+    grid-template-areas: "team team team";
+    margin-top: 1%;
+}
+
+.team_member img {
+    width: 70%;
+}
+
+.team_member p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    color: white;
+    background: black;
+    position: absolute;
+    top: 94%;
+    left: 8%;
+    padding: 2% 3%;
+}
+
+.team_section3 {
+    display: grid;
+    grid-template-areas: "pre btn";
+    margin-top: 5%;
+}
+
+pre {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+
+.team_section3 a {
+    width: 31%;
+    height: fit-content;
+    margin-left: 42%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    background: black;
+    color: white;
+    padding: 2% 3%;
+    text-decoration: none;
+}
+
+#section3 {
+    width: 69%;
+    display: grid;
+    grid-template-areas: "images content";
+    box-sizing: border-box;
+    margin: 5% 0 0 16%;
+}
+
+.section3_images {
+    display: grid;
+    grid-area: "images";
+    position: relative;
+}
+
+.section3_images img {
+    width: 70%;
+
+}
+
+.section3_image1 {
+    width: 50%;
+    position: absolute;
+    top: 58%;
+    left: 44%;
+    border: 4px solid white;
+}
+
+.section3_image1 img {
+    width: 100%;
+}
+
+.section3_content {
+    display: grid;
+    grid-area: "content";
+}
+
+.section3_content p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 13%;
+}
+
+footer {
+    background: black;
+    box-sizing: border-box;
+    margin-top: 10%;
+}
+
+#footer_content {
+    width: 80%;
+}
+
+#footer_content h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 47%;
+    color: white;
+
+}
+
+#footer_content p {
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+
+    color: white;
+    margin-left: 20%;
+}
+
+/* #footer_links{
+    
+} */
+#footer_links ul {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 13% 10% 10% 15% 10% 10% 10% 10%;
+    justify-content: center;
+    margin: 2% 0 0 14%;
+}
+
+#footer_links ul li {
+    list-style: none;
+}
+
+#footer_links ul li a {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+#footer_links ul li a:hover{
+    background: #b76125;
+    padding: 1% 2%;
+
+}
+
+footer p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin-top: 1%;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+    header {
+        
+        grid-template-columns: 99%;
+      }
+      .form_group {
+        grid-template-columns: 97%;
+        grid-gap: 28%;
+        margin-top: 3%;
+      }
+      .form_group1 {
+        grid-template-columns: 97%;
+        margin-top: 12%;
+      }
+      .form_group1 button {
+        width: 18%;
+        padding: 1% 3%;
+        margin: 5% 0 0 0;
+
+}
+#header_section1 ul {
+    margin: 8% 0 0 5%;
+  }
+  #header_section2 nav ul{
+      display: none;
+  }
+  #play{
+      display: none;
+  }
+#companies {
+   
+    grid-template-columns: 47% 47%;
+    justify-content: center;
+    grid-gap: 3%;
+    margin: 4% 0 0 7%;
+  }
+  #companies img {
+    width: 80%;
+  }
+  section {
+    box-sizing: border-box;
+    display: grid;
+    margin-top: 7%;
+  }
+  h1 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .section1_p{
+      text-align: center;
+  }
+  #main {
+    width: 68%;
+    grid-template-areas: "main_box1";
+    margin: 3% 0 0 17%;
+  }
+  .main_box1 {
+    grid-area: "main_box1";
+  }
+  .company_locations {
+    margin-bottom: 6%;
+  }
+  .company_locations ul {
+    grid-template-columns: 56% 50%;
+    margin-left: 4%;
+  }
+  .main_box2 {
+    width: 88%;
+    margin: 5% 0 0 0;
+  }
+  #section2 {
+    position: relative;
+    width: 100%;
+    min-height: 1702px;
+  }
+  #team_bg{
+      background: white;
+  }
+  #team_section {
+    width: 81%;
+    top: 0%;
+    left: 9%;
+  }
+  .team_section1 {
+    grid-template-columns: 100%;
+  }
+  .team_section1_p1 {
+    width: 100%;
+    
+  }
+  .team_section2 {
+    grid-template-areas: "team";
+    margin: 2% 0 0 5%;
+  }
+
+  .team_member {
+    position: relative;
+    margin-top: 13%;
+  }
+  .team_member img {
+    width: 93%;
+  }
+  .team_member p {
+    left: 16%;
+  }
+  .team_section3 {
+    grid-template-areas: "pre";
+    margin-top: 5%;
+  }
+  pre {
+    color: black;
+    text-align: center;
+    margin-top: 3%;
+  }
+  .team_section3 a {
+    width: 52%;
+    margin-left: 25%;
+    text-align: center;
+  }
+  #section3 {
+    width: 69%;
+    grid-template-areas: "images";
+    margin: 5% 0 0 16%;
+  }
+  .section3_content {
+    margin-top: 21%;
+  }
+  #footer_content h2 {
+    font-size: 1.1rem;
+    margin-left: 14%;
+   
+  }
+  #footer_content p {
+   
+    font-size: 1rem;
+  
+    margin-left: 14%;
+    width: 100%;
+    text-align: left;
+  }
+
+  #footer_links ul {
+    width: 85%;
+    grid-template-columns: 48% 58%;
+    justify-content: center;
+    margin: 2% 0 0 17%;
+    grid-gap: 10%;
+  }
+.footer_text{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.9rem;
+    color: white;
+    text-align: center;
+    margin-top: 9%;
+  }
+  
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:1200px){
+
+    #header_section1 ul {
+        display: grid;
+        grid-template-columns: 10% 10% 10%;
+        margin: 86% 0 0 5%;
+      }
+      #header_section2 nav ul {
+        display: grid;
+        grid-template-columns: 13% 21% 30% 23% 17% 15% 26%;
+        margin: 3% 0 0 12%;
+      }
+      #header_section2 nav ul li a {
+        font-size: 0.9rem;
+      }
+      #companies {
+       
+        grid-gap: 2%;
+      }
+      h1 {
+        
+        text-align: center;
+        
+      }
+      #section2 {
+       
+        min-height: 100px;
+        margin-top: 3%;
+        
+      }
+      #team_section {
+        
+        top: 2%;
+       
+      }
+      .team_section3 {
+        
+        margin-top: 7%;
+      }
+      .team_section3 a {
+        width: 56%;
+        margin-left: 10%;
+        text-align: center;
+      }
+      .section3_image1 {
+      
+        top: 43%;
+       
+      }
+      #footer_content h2 {
+        margin-left: 36%;
+      }
+      #footer_links ul {
+        width: 70%;
+        grid-template-columns: 19% 10% 15% 25% 18% 14% 10% 10%;
+        margin: 2% 0 0 12%;
+      }
+      #footer_links ul li a{
+          font-size: 0.9rem;
+      }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){
+    #header_section2 nav ul{
+        display: none;
+    }
+    #play{
+        display: none;
+    }
+    #section2 {
+      
+      min-height: 100px;
+    }
+    .section3_images {
+      
+        margin-top: 21%;
+      }
+      .section3_image1 {
+      
+        top: 29%;
+        left: 44%;
+      }
+
+
+
+}
+
+@media only screen and (min-width:768px) and (min-width:1200px){
+
+    #header_section2 nav ul {
+        
+        grid-template-columns: 20% 26% 37% 30% 22% 20% 26%;
+        margin: 6% 0 0 29%;
+      }
+
+      .team_section3 a {
+        width: 38%;
+        margin-left: 29%;
+        text-align: center;
+      }
+    #footer_links ul {
+        
+        grid-template-columns: 13% 10% 11% 17% 13% 10% 10% 10%;
+        
+      }
+}
+
